@@ -17,6 +17,11 @@
                 <li><a href="#menu" class="hover:text-pink-300">Menu</a></li>
                 <li><a href="#about" class="hover:text-pink-300">About</a></li>
                 <li><a href="#contact" class="hover:text-pink-300">Contact</a></li>
+                <li><a href="{{ route('about')}} " class="hover:text-pink-300">Tentang Kami</a>
+                <li><a href="{{ route('login')}} " class="hover:text-pink-300">Login</a>
+
+                
+                
             </ul>
         </nav>
     </header>
@@ -41,6 +46,7 @@
                 <p class="text-lg text-gray-400">
                     Dessert kami terbuat dari bahan-bahan terbaik dan memiliki cita rasa tersendiri. Dibuat dengan tangan-tangan chef terbaik.
                 </p>
+
             </div>
         </div>
     </section>
